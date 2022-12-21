@@ -25,9 +25,7 @@ if conn is None:
 else:
     print("MySQL connection established!")
 
-table_name = "orders"
-
-m_query = f"SELECT * FROM {table_name};"
+m_query = "SELECT * FROM orders;"
 local_filename = "order_extracts.csv"
 
 m_cursor = conn.cursor()
