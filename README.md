@@ -8,7 +8,7 @@ Hello, welcome to my **Data Engineering Practice** repo!
 - [ ] AWS Account
 - [ ] MySQL database
 - [ ] Create table in MySQL
-- [ ] Python script (extract/load)
+- [X] Python script (extract/load)
 
 
 ## References
