@@ -5,10 +5,12 @@ Hello, welcome to my **Data Engineering Practice** repo!
 ### MySQL Pipeline *(Densmore 2021)*
 **To Do:**
 - [x] Virtual Environment
-- [ ] AWS Account
-- [ ] MySQL database
-- [ ] Create table in MySQL
-- [X] Python script (extract/load)
+- [x] AWS Account
+- [x] MySQL database
+- [x] Create table in MySQL
+- [X] Python script (full extract table to s3 bucket)
+- [ ] Redshift Data Warehouse
+- [ ] Python script (incremental extract table to s3 bucket)
 
 
 ## References
