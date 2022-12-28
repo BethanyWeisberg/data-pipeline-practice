@@ -9,8 +9,9 @@ Hello, welcome to my **Data Engineering Practice** repo!
 - [x] MySQL database
 - [x] Create table in MySQL
 - [X] Python script (full extract table to s3 bucket)
-- [ ] Redshift Data Warehouse
-- [ ] Python script (incremental extract table to s3 bucket)
+- [x] Redshift Data Warehouse
+- [x] Python script (incremental extract table to s3 bucket)
+- [ ] Load csv files to Redshift data warehouse
 
 
 ## References
