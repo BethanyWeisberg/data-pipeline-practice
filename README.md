@@ -2,7 +2,7 @@
 
 Hello, welcome to my **Data Engineering Practice** repo!
 
-### MySQL Pipeline *(Densmore 2021)*
+### Data Ingestion Pipeline *(Densmore 2021)*
 **To Do:**
 - [x] Virtual Environment
 - [x] AWS Account
@@ -12,6 +12,7 @@ Hello, welcome to my **Data Engineering Practice** repo!
 - [x] Redshift Data Warehouse
 - [x] Python script (incremental extract table to s3 bucket)
 - [ ] ~BinLog Replication of MySQL data~ *Note - will practice CDC method at later point.*
+- [ ] MongoDB data extraction method
 - [ ] Load csv files to Redshift data warehouse
 
 
