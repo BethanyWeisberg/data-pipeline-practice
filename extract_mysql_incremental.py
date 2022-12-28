@@ -16,7 +16,29 @@ password = parser.get("mysql_config", "password")
 host = parser.get("mysql_config", "host")
 port = parser.get("mysql_config", "port")
 
+#Connect to Redshift cluster
+rs_conn = psycopg2.connect(
+    "dbname=" + dbname
+    + " user=" + user
+    + " password=" + password
+    + " host=" + host
+    + " port=" + port
+)
 
+rs_sql = """ select coalesce(max(lastupdated), 
+    '1900-01-01')
+    from orders;"""
+rs_cursor = rs_conn.cursor()
+rs_cursor.execute(rs_sql)
+result = rs_cursor.fetchone()
+
+# There's only one row and column returned
+last_updated_warehouse = result[0]
+
+rs_cursor.close()
+rs_conn.commit()
+
+# Get the MySQL connection info and connect:
 parser = configparser.ConfigParser()
 parser.read("pipeline.conf")
 hostname = parser.get("mysql_config", "hostname")
