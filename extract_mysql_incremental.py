@@ -11,10 +11,10 @@ import psycopg2
 parser = configparser.ConfigParser()
 parser.read("pipeline.conf")
 dbname = parser.get("aws_creds", "database")
-user = parser.get("mysql_config", "username")
-password = parser.get("mysql_config", "password")
-host = parser.get("mysql_config", "hostname")
-port = parser.get("mysql_config", "port")
+user = parser.get("aws_creds", "username")
+password = parser.get("aws_creds", "password")
+host = parser.get("aws_creds", "host")
+port = parser.get("aws_creds", "port")
 
 #Connect to Redshift cluster
 rs_conn = psycopg2.connect(
