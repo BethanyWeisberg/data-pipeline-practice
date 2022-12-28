@@ -13,7 +13,7 @@ parser.read("pipeline.conf")
 dbname = parser.get("aws_creds", "database")
 user = parser.get("mysql_config", "username")
 password = parser.get("mysql_config", "password")
-host = parser.get("mysql_config", "host")
+host = parser.get("mysql_config", "hostname")
 port = parser.get("mysql_config", "port")
 
 #Connect to Redshift cluster
