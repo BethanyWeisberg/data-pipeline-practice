@@ -38,6 +38,7 @@ last_updated_warehouse = result[0]
 rs_cursor.close()
 rs_conn.commit()
 
+
 # Get the MySQL connection info and connect:
 parser = configparser.ConfigParser()
 parser.read("pipeline.conf")
