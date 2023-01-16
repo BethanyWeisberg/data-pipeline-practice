@@ -12,8 +12,11 @@ Hello, welcome to my **Data Engineering Practice** repo!
 - [x] Redshift Data Warehouse
 - [x] Python script (incremental extract table to s3 bucket)
 - [ ] ~BinLog Replication of MySQL data~ *Note - will practice CDC method at later point.*
-- [ ] MongoDB data extraction method
+- [x] MongoDB data extraction method 
 - [ ] Load csv files to Redshift data warehouse
+-----------
+### Highlights
+<img width="1628" alt="image" src="https://user-images.githubusercontent.com/95442334/212775416-24378f7f-de2f-46a7-9096-a53469f22dfc.png">
 
 
 ## References
