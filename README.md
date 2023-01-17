@@ -16,9 +16,9 @@ Hello, welcome to my **Data Engineering Practice** repo! Here I keep all the pyt
 - [x] Python script (incremental extract table to s3 bucket)
 - [ ] ~BinLog Replication of MySQL data~ *Note - will practice CDC method at later point.*
 - [x] MongoDB data extraction method 
-- [ ] REST API data extraction method
+- [x] REST API data extraction method
 ##### Data Loading:
-- [ ] Load csv files to Redshift data warehouse
+- [ ] Load CSV files to Redshift data warehouse
 
 #### **2. Highlights**
 | MySQL Database (via RDS) | Table Created in MySQL | S3 Bucket for Extracted MySQL Table | Redshift Data Warehouse | MongoDB Database |
