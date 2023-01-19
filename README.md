@@ -1,6 +1,6 @@
 # Data Pipeline Practice
 
-Hello, welcome to my **Data Pipeline Practice** repo! Here I keep all the python scripts and relevant files I used for practicing data pipelines via the  extract - transform - load (ETL) method. I am using the *Data Pipelines Pocket Reference (Densmore 2021)* to guide my ETL-practice journey. Below, I keep track of the **ETL Practice Steps** and the **Highlights** of my learning journey.
+Hello, welcome to my **Data Pipeline Practice** repo! Here I keep all the python scripts and relevant files I used for practicing data pipelines via the  extract - load - transform (ELT) method. I am using the *Data Pipelines Pocket Reference (Densmore 2021)* to guide my ETL-practice journey. Below, I keep track of the **ETL Practice Steps** and the **Highlights** of my learning journey.
 
 -----------
 ### Data Ingestion Pipeline *(Densmore 2021)*
