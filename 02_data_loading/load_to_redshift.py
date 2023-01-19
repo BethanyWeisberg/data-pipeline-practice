@@ -27,11 +27,11 @@ account_id = parser.get("aws_boto_credentials", "account_id")
 iam_role = parser.get("aws_creds", "iam_role")
 bucket_name = parser.get("aws_boto_credentials", "bucket_name")
 
-# run the `COPY` ceommand to load the file into Redshift
-file_path = (f"s3://{bucket_name}/export_mongo_file.csv")
+# run the `COPY` command to load the file into Redshift
+file_path = (f"s3://{bucket_name}/export_rest_api_file.csv")
 role_string = (f"arn:aws:iam::{account_id}:role/{iam_role}")
 
-sql = "COPY public.web_application"
+sql = "COPY public.international_space_station_location"
 sql = sql + " from %s "
 sql = sql + " iam_role %s;"
 
