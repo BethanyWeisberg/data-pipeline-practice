@@ -22,7 +22,7 @@ Hello, welcome to my **Data Pipeline Practice** repo! Here I keep all the python
 - [x] Load CSV file to Redshift data warehouse via python script
 ##### Data Transformation:
 - [x] Deduplicating records in a data warehouse table via sql
-- [ ] Parsing URLs via python and sql
+- [x] Parsing URLs via python
 
 #### **2. Highlights**
 ##### Data Extraction
