@@ -23,6 +23,7 @@ Hello, welcome to my **Data Pipeline Practice** repo! Here I keep all the python
 ##### Data Transformation:
 - [x] Deduplicating records in a data warehouse table via sql
 - [x] Parsing URLs via python
+- [x] Transform data from fact and dimension tables by creating a new data model via SQL
 
 #### **2. Highlights**
 ##### Data Extraction
@@ -36,9 +37,10 @@ Hello, welcome to my **Data Pipeline Practice** repo! Here I keep all the python
 |![Screen Shot 2023-01-18 at 5 08 12 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213332303-b4d053b1-a104-4f5c-bfed-133bb6f804af.jpg)|![Screen Shot 2023-01-18 at 5 09 42 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213332580-e8a7c6c0-9548-4af9-8d8e-d18e3d0e44aa.jpg)|![Screen Shot 2023-01-18 at 5 52 16 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213337144-78f19114-047a-4116-b67c-a54c44d113fb.jpg)|![Screen Shot 2023-01-18 at 6 04 43 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213338518-a3fce05b-c13a-45f8-a4d4-b97cfca19a3d.jpg)|
 
 ##### Data Transformation
-| Create Table with Duplicate Count (SQL) | Deduplicate Original Table (SQL) |
-| ----------- | ----------- |
-|![Screen Shot 2023-01-18 at 6 40 24 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213343115-612e9c91-3e3e-46dc-a8b1-d3bbb22f8fa7.jpg)|![Screen Shot 2023-01-18 at 6 40 39 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213343139-b0eaf1d9-2bb4-442f-831d-3c347a0a2c4e.jpg)|
+| Create Table with Duplicate Count (SQL) | Deduplicate Original Table (SQL) | Create Transformed Data Model (SQL) |
+| ----------- | ----------- | ----------- |
+|![Screen Shot 2023-01-18 at 6 40 24 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213343115-612e9c91-3e3e-46dc-a8b1-d3bbb22f8fa7.jpg)|![Screen Shot 2023-01-18 at 6 40 39 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213343139-b0eaf1d9-2bb4-442f-831d-3c347a0a2c4e.jpg)|![Screen Shot 2023-01-22 at 12 01 32 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213937775-b7b68f86-4fb4-43de-a41f-41a5940662da.jpg)|
+
 
 
 -----------
