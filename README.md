@@ -46,7 +46,7 @@ Hello, welcome to my **Data Pipeline Practice** repo! Here I keep all the python
 ##### Workflow Orchestration
 | Create Table with Duplicate Count (SQL) |
 | ----------- |
-||
+|![Screen Shot 2023-01-24 at 9 24 33 PM_thumbnail](https://user-images.githubusercontent.com/95442334/214487055-eeadb4a1-e1ef-455e-a98d-adc297b00581.jpg)|
 
 -----------
 ## Reference
