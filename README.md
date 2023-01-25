@@ -26,6 +26,8 @@ Hello, welcome to my **Data Pipeline Practice** repo! Here I keep all the python
 - [x] Transform data from fact and dimension tables by creating a new data model via SQL
 ##### Workflow Orchestration Management:
 - [x] Install Apache Airflow
+- [ ] Create Postgres database
+- [ ] Configure Airflow to use Postgres database
 
 #### **2. Highlights**
 ##### Data Extraction
