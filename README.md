@@ -44,7 +44,7 @@ Hello, welcome to my **Data Pipeline Practice** repo! Here I keep all the python
 |![Screen Shot 2023-01-18 at 6 40 24 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213343115-612e9c91-3e3e-46dc-a8b1-d3bbb22f8fa7.jpg)|![Screen Shot 2023-01-18 at 6 40 39 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213343139-b0eaf1d9-2bb4-442f-831d-3c347a0a2c4e.jpg)|![Screen Shot 2023-01-22 at 12 01 32 PM_thumbnail](https://user-images.githubusercontent.com/95442334/213937775-b7b68f86-4fb4-43de-a41f-41a5940662da.jpg)|
 
 ##### Workflow Orchestration
-| Create Table with Duplicate Count (SQL) |
+| Install Apache Airflow |
 | ----------- |
 |![Screen Shot 2023-01-24 at 9 24 33 PM_thumbnail](https://user-images.githubusercontent.com/95442334/214487055-eeadb4a1-e1ef-455e-a98d-adc297b00581.jpg)|
 
