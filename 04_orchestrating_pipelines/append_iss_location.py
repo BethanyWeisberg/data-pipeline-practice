@@ -31,8 +31,8 @@ with last_appended as (
         max(location_at) as last_appended_at
     from iss_locations
 )
-SELECT 
-	timestamp 'epoch' + timestamp * interval '1 second' as location_at,
+SELECT
+    timestamp 'epoch' + timestamp * interval '1 second' as location_at,
     longitude,
     latitude,
     message,
