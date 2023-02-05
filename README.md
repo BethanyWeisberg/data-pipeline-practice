@@ -30,7 +30,7 @@ Hello, welcome to my **Data Pipeline Practice** repo! Here I keep all the python
 - [x] Configure Airflow to use Postgres database
 - [x] Build and Run a Simple Airflow DAG
 - [x] Build an ELT Pipeline DAG
-- [ ] Configure DAG Status Alerts
+- [x] Configure DAG Status Alerts
 - [ ] Coordinate Multiple DAGs with Sensors
 ##### Pipeline Data Validation:
 - [ ] Create validation test script
