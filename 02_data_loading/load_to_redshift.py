@@ -33,7 +33,8 @@ role_string = (f"arn:aws:iam::{account_id}:role/{iam_role}")
 
 sql = "COPY public.international_space_station_location"
 sql = sql + " from %s "
-sql = sql + " iam_role %s;"
+sql = sql + " iam_role %s"
+sql = sql + "IGNOREHEADER 1;"
 
 # create a cursor object and execute the `COPY`
 cur = rs_conn.cursor()

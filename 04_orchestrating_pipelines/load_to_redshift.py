@@ -1,10 +1,13 @@
 import boto3
 import configparser
 import psycopg2
+import os
 
+thisfolder = os.path.dirname(os.path.abspath(__file__))
+initfile = os.path.join(thisfolder, 'pipeline.conf')
 # get db Redshift connection info
-parser = configparser.ConfigParser()
-parser.read("pipeline.conf")
+parser = configparser.RawConfigParser()
+parser.read(initfile)
 dbname = parser.get("aws_creds", "database")
 user = parser.get("aws_creds", "username")
 password = parser.get("aws_creds", "password")
@@ -22,7 +25,7 @@ rs_conn = psycopg2.connect(
 
 # load the account_id and iam_role from the configuration file
 parser = configparser.ConfigParser()
-parser.read("pipeline.conf")
+parser.read(initfile)
 account_id = parser.get("aws_boto_credentials", "account_id")
 iam_role = parser.get("aws_creds", "iam_role")
 bucket_name = parser.get("aws_boto_credentials", "bucket_name")
@@ -33,7 +36,8 @@ role_string = (f"arn:aws:iam::{account_id}:role/{iam_role}")
 
 sql = "COPY public.international_space_station_location"
 sql = sql + " from %s "
-sql = sql + " iam_role %s;"
+sql = sql + " iam_role %s"
+sql = sql + "IGNOREHEADER 1;"
 
 # create a cursor object and execute the `COPY`
 cur = rs_conn.cursor()

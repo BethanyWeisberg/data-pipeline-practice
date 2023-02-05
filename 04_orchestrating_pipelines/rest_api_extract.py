@@ -4,6 +4,7 @@ import json
 import configparser
 import csv
 import boto3
+import os
 
 api_response = requests.get("http://api.open-notify.org/iss-now.json")
 
@@ -35,8 +36,12 @@ fp.close()
 
 # Upload the CSV file to S3 bucket
 # load the 'aws_boto_credentials' values
-parser = configparser.ConfigParser()
-parser.read("pipeline.conf")
+thisfolder = os.path.dirname(os.path.abspath(__file__))
+initfile = os.path.join(thisfolder, 'pipeline.conf')
+
+#  data = config.get('section_name', 'variable_name')
+parser = configparser.RawConfigParser() # configparser.ConfigParser()
+parser.read(initfile)
 access_key = parser.get("aws_boto_credentials", "access_key")
 secret_key = parser.get("aws_boto_credentials", "secret_key")
 bucket_name = parser.get("aws_boto_credentials", "bucket_name")
